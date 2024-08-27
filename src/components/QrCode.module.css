@@ -1,0 +1,44 @@
+.qrCode {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  max-width: 320px;
+  padding: 16px 16px 40px 16px;
+  border-radius: 20px;
+  background-color: #fff;
+}
+
+.img {
+  max-width: 100%;
+  border-radius: 10px;
+  margin-bottom: 24px;
+}
+
+.content {
+  text-align: center;
+  max-width: 288px;
+  padding-left: 16px;
+  padding-right: 16px;
+}
+
+.title {
+  font-weight: 700;
+  font-size: 22px;
+  line-height: 120%;
+  padding-bottom: 16px;
+  color: #1f314f;
+}
+
+.description {
+  font-size: 15px;
+  line-height: 140%;
+  letter-spacing: 0.2px;
+  color: #68778d;
+}
+
+@media screen and (max-width: 320px) {
+  .qrCode {
+    max-width: 85%;
+  }
+}
