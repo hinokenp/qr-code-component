@@ -19,7 +19,7 @@ const qrCode = {
 ## Links
 
 - [Chellenge URL](https://www.frontendmentor.io/challenges/qr-code-component-iux_sIO_H)
-- Live Site URL:
+- [Live Site URL](https://qr-code-component-hinokenps-projects.vercel.app/)
 
 ## Acknowledgements
 
